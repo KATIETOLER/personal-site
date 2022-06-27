@@ -1,0 +1,19 @@
+.sub-heading {
+	color: #ff5d8f;
+	font-weight: bolder;
+	font-style: italic;
+	padding: 1vw;
+	background-color: #ffa6c1;
+	font-size: 0.5em;
+}
+
+div {
+	color: #f4acb7;
+	border-radius: 0.5vw;
+}
+
+.graphics {
+	padding: 1vw;
+	background-color: #ff5d8f;
+	color: white;
+}

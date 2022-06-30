@@ -4,7 +4,7 @@ import './Header.css'
 function Header() {
 	return (
 		<div className='App-header'>
-			Katie Toler
+			<p className='my-name'>Katie Toler</p>
 			<div className='sub-heading'>Front End Software Engineer</div>
 			<div className='graphics'>lol ~ graphics design is my passion ~ lol </div>
 		</div>

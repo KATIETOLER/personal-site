@@ -21,9 +21,10 @@
 	align-items: flex-end;
 	padding-top: 5vw;
 	padding-right: 10vw;
-	justify-content: center;
-	font-size: calc(10px + 2vmin);
-	color: white;
+	justify-content: space-evenly;
+	font-size: 2.5em;
+	color: #ff5d8f;
+	height: 15vw;
 }
 
 .App-link {

@@ -1,0 +1,36 @@
+.sub-heading {
+	color: white;
+	font-weight: bolder;
+	font-style: italic;
+	padding: 1vw;
+	background-color: #ffa6c1;
+	font-size: 0.5em;
+}
+
+div {
+	border-radius: 0.5vw;
+}
+.my-name {
+	transition: 1000ms;
+}
+
+.my-name:hover {
+	transition: 2s;
+	transform: scale(1.1);
+}
+
+.graphics {
+	padding: 1vw;
+	background-color: #ff5d8f;
+	color: white;
+	transition: 5s;
+	margin-top: 1em;
+}
+
+.graphics:hover {
+	margin-top: 1.3em;
+	transform: skewY(20deg);
+	background-color: #ffacc5;
+	color: white;
+	transition: 1s;
+}

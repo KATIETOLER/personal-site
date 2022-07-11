@@ -1,0 +1,12 @@
+.aboutme-container {
+	padding: 20vw;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	color: rgb(62, 62, 62);
+}
+
+/* #img {
+	background-repeat: no-repeat;
+	background: url('../../pinkcrystal.jpeg');
+} */

@@ -1,13 +1,23 @@
 import React from 'react'
 import './Nav.css'
+import { useNavigate } from 'react-router-dom'
 
 function Nav() {
+	let navigate = useNavigate()
 	return (
 		<div className='nav-bar'>
-			<p className="nav-btns" id="aboutMe">About Me</p>
-			<p className="nav-btns" id="portfolio">Portfolio</p>
-			<p className="nav-btns" id="resume">Resume</p>
-			<p className="nav-btns" id="game">Play a Game</p>
+			<button className='nav-btns' onClick={() => navigate('/AboutMe')}>
+				About Me
+			</button>
+			<button className='nav-btns' onClick={() => navigate('/Portfolio')}>
+				Portfolio
+			</button>
+			<button className='nav-btns' onClick={() => navigate('/Resume')}>
+				Resume
+			</button>
+			<button className='nav-btns' onClick={() => navigate('/Game')}>
+				Play a Game
+			</button>
 		</div>
 	)
 }

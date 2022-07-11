@@ -4,7 +4,7 @@
 	width: 100%;
 	margin-right: 10vw;
 	padding: 2vw;
-	background-color: #ff5d8f;
+	background-color: #3b3336;
 	border-radius: 0;
 	color: white;
 	height: 5vw;
@@ -14,12 +14,13 @@
 	margin: 1vw;
 	padding: 1vw;
 	border-radius: 0.3vw;
-	color: #ff5d8f;
+	color: rgb(65, 65, 65);
 	font-weight: bolder;
-	transition: 2s;
+	transition: 1s;
+	border: solid 0px;
 }
 
 .nav-btns:hover {
-	transition: 1s;
-	transform: scale(1.04);
+	transition: 0.5s;
+	color: #ff5d8f;
 }

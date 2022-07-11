@@ -6,7 +6,6 @@ function Header() {
 		<div className='App-header'>
 			<p className='my-name'>Katie Toler</p>
 			<div className='sub-heading'>Front End Software Engineer</div>
-			<div className='graphics'>lol ~ graphics design is my passion ~ lol </div>
 		</div>
 	)
 }

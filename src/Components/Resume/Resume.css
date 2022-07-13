@@ -1,0 +1,14 @@
+* {
+	background: none;
+}
+
+.resume-container {
+	display: flex;
+	justify-content: center;
+}
+
+@media print {
+	.resume-container {
+		display: none;
+	}
+}

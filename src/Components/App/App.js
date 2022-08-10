@@ -5,7 +5,7 @@ import { Route, Routes } from 'react-router-dom'
 import AboutMe from '../AboutMe/AboutMe'
 import Portfolio from '../Portfolio/Portfolio'
 import Resume from '../Resume/Resume'
-import Game from '../Game/Game'
+import Blog from '../Blog/Blog'
 import Nav from '../Nav/Nav'
 
 class App extends Component {
@@ -22,7 +22,7 @@ class App extends Component {
 					<Route path='/AboutMe' element={<AboutMe />} />
 					<Route path='/Portfolio' element={<Portfolio />} />
 					<Route path='/Resume' element={<Resume />} />
-					<Route path='/Game' element={<Game />} />
+					<Route path='/Game' element={<Blog />} />
 					<Route
 						path='/'
 						element={

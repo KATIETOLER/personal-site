@@ -15,8 +15,8 @@ function Nav() {
 			<button className='nav-btns' onClick={() => navigate('/Resume')}>
 				Resume
 			</button>
-			<button className='nav-btns' onClick={() => navigate('/Game')}>
-				Play a Game
+			<button className='nav-btns' onClick={() => navigate('/Blog')}>
+				Blog
 			</button>
 		</div>
 	)

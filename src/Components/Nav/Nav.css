@@ -2,11 +2,8 @@
 	display: flex;
 	justify-content: flex-start;
 	width: 100%;
-	margin-right: 10vw;
 	padding: 2vw;
-	background-color: #3b3336;
 	border-radius: 0;
-	color: white;
 	height: 5vw;
 }
 
@@ -14,8 +11,8 @@
 	margin: 1vw;
 	padding: 1vw;
 	border-radius: 0.3vw;
-	color: rgb(65, 65, 65);
-	font-weight: bolder;
+	color: rgb(128, 128, 128);
+	font-size: 1em;
 	transition: 1s;
 	border: solid 0px;
 }

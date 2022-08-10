@@ -1,0 +1,48 @@
+p {
+	font-size: 1.5em;
+}
+
+.contact-header {
+	font-size: 0.8em;
+	color: rgb(50, 50, 50);
+	background-color: whitesmoke;
+}
+
+.contact-box {
+	border: solid 0.06em rgb(50, 50, 50);
+	padding: 5em;
+	width: fit-content;
+	display: flex;
+	flex-direction: column;
+	align-content: flex-start;
+	align-items: flex-end;
+}
+
+.page-box {
+	padding: 2em;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+#hair {
+	border-radius: 7em;
+	padding: 5em;
+	margin: 7em;
+	height: 25vw;
+}
+
+#oriol {
+	border-radius: 1em;
+	height: 15vw;
+	margin-left: -40vw;
+	margin-top: -20vw;
+	/* filter: grayscale(100); */
+}
+
+/* #oriol:hover {
+	filter: none;
+	transition: 2s;
+} */
+#FEE {
+}

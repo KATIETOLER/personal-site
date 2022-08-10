@@ -6,8 +6,14 @@ function Nav() {
 	let navigate = useNavigate()
 	return (
 		<div className='nav-bar'>
+			<button className='nav-btns' onClick={() => navigate('/')}>
+				Home
+			</button>
 			<button className='nav-btns' onClick={() => navigate('/AboutMe')}>
 				About Me
+			</button>
+			<button className='nav-btns' onClick={() => navigate('/Contact')}>
+				Contact Me
 			</button>
 			<button className='nav-btns' onClick={() => navigate('/Portfolio')}>
 				Portfolio

@@ -7,6 +7,7 @@ import Portfolio from '../Portfolio/Portfolio'
 import Resume from '../Resume/Resume'
 import Blog from '../Blog/Blog'
 import Nav from '../Nav/Nav'
+import Contact from '../Contact/Contact'
 
 class App extends Component {
 	constructor() {
@@ -22,7 +23,8 @@ class App extends Component {
 					<Route path='/AboutMe' element={<AboutMe />} />
 					<Route path='/Portfolio' element={<Portfolio />} />
 					<Route path='/Resume' element={<Resume />} />
-					<Route path='/Game' element={<Blog />} />
+					<Route path='/Contact' element={<Contact />} />
+					<Route path='/Blog' element={<Blog />} />
 					<Route
 						path='/'
 						element={

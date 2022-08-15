@@ -40,10 +40,11 @@ div {
 	margin-top: 1vw;
 	height: 40vh;
 	width: 40vh;
-	border-radius: 400vw;
+	border-radius: 80%;
 }
 
 .img-container {
+	border-radius: 80%;
 	width: 20vw;
 	height: 20vw;
 }

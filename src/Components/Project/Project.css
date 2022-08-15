@@ -4,4 +4,15 @@
 }
 .project-img {
 	border-radius: 1em;
+	height: 30vw;
+}
+
+.project-container {
+	width: 90vw;
+	border: solid 0.05em black;
+	margin: 2em;
+	background-color: whitesmoke;
+}
+
+.project-description {
 }

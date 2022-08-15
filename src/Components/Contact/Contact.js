@@ -13,33 +13,23 @@ function Contact() {
 						alt='hair in the wind'
 						id='hair'
 					/>
-					<img
-						src='https://64.media.tumblr.com/408ba1ffa2ecba9ff50a7ac291ff7941/tumblr_notm9g0gNN1tez4xgo1_1280.jpg'
-						alt='oriol bird'
-						id='oriol'
-					/>
 				</div>
 				<div className='contact-box'>
-					<h2>Contact Me</h2>
-					<em>
-						{' '}
-						<p>Katie Toler</p>
-					</em>
+					<h2 className='contact-me'>Contact Me</h2>
+
+					<p>Katie Toler</p>
+
 					<p className='FEE'>Front End Software Engineer</p>
+					<p>Phone: 303-868-8423</p>
+					<p>Email: Katie.Toler3@gmail.com</p>
 					<p>
-						<strong>Phone: </strong>303-868-8423
-					</p>
-					<p>
-						<strong>Email: </strong> Katie.Toler3@gmail.com
-					</p>
-					<p>
-						<strong>GitHub: </strong>
+						GitHub:{'  '}
 						<a href='https://github.com/KATIETOLER'>
 							https://github.com/KATIETOLER
 						</a>
 					</p>
 					<p>
-						<strong> LinkedIn: </strong>
+						LinkedIn:{'  '}
 						<a href='www.LinkedIn.com/in/katie--toler'>
 							www.LinkedIn.com/in/katie--toler
 						</a>{' '}

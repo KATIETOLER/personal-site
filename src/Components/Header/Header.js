@@ -11,12 +11,10 @@ function Header() {
 				</div>
 				<div className='sub-heading'>Front End Software Engineer</div>
 			</div>
-			<div className='img-container'>
-				<img
-					id='icon'
-					src='https://64.media.tumblr.com/a67ddc041cb53540ed9b9268800014e1/tumblr_oeg8nuJftA1tez4xgo1_1280.jpg'
-					alt='katie toler'></img>
-			</div>
+			<img
+				id='icon'
+				src='https://images.unsplash.com/photo-1485841938031-1bf81239b815?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=665&q=80'
+				alt='katie toler'></img>
 		</div>
 	)
 }

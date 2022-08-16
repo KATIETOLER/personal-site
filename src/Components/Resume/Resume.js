@@ -9,11 +9,8 @@ const Resume = () => {
 	return (
 		<div className='resume-container'>
 			<Nav />
-			<Document
-				file={PDF}
-				onContextMenu={(e) => e.preventDefault()}
-				className='pdf'>
-				<Page pageNumber={1} />
+			<Document file={PDF} onContextMenu={(e) => e.preventDefault()}>
+				<Page pageNumber={1} className='pdf' />
 			</Document>
 		</div>
 	)

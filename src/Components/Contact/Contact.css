@@ -39,3 +39,21 @@ p {
 	font-family: 'DM Serif Display', serif;
 	font-size: 5em;
 }
+
+.icon-container {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+	width: 100%;
+}
+
+#liIcon,
+#tIcon,
+#ghIcon {
+	height: 3em;
+}
+
+#ghIcon {
+	padding: 0.3em;
+}

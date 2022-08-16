@@ -1,8 +1,11 @@
 .App {
 	text-align: center;
-	background-color: #f4f1eb;
-	height: 100vh;
+	height: 100%;
 	width: 100vw;
+	background-color: #f4f1eb;
+}
+
+* {
 }
 
 a:link {

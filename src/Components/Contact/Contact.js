@@ -1,6 +1,8 @@
 import React from 'react'
 import './Contact.css'
 import Nav from '../Nav/Nav'
+import gh from '../../GH-icon.png'
+import li from '../../LI-icon.png'
 
 function Contact() {
 	return (
@@ -22,18 +24,21 @@ function Contact() {
 					<p className='FEE'>Front End Software Engineer</p>
 					<p>Phone: 303-868-8423</p>
 					<p>Email: Katie.Toler3@gmail.com</p>
-					<p>
-						GitHub:{'  '}
-						<a href='https://github.com/KATIETOLER'>
-							https://github.com/KATIETOLER
+					<div className='icon-container'>
+						<a href='https://github.com/KATIETOLER' target='_blank'>
+							<img src={gh} alt='GitHub link' id='ghIcon' />
 						</a>
-					</p>
-					<p>
-						LinkedIn:{'  '}
 						<a href='www.LinkedIn.com/in/katie--toler'>
-							www.LinkedIn.com/in/katie--toler
+							<img src={li} alt='LinkedIn link' id='liIcon' />
 						</a>{' '}
-					</p>
+						<a
+							href='https://terminal.turing.edu/profiles/1338'
+							alt='Turing School Link'>
+							<img
+								src='https://global-uploads.webflow.com/6181549f60a2245732e2f91b/6193f9ff1e2ea00183765ef1_turing-logo-gray.png'
+								id='tIcon'></img>
+						</a>
+					</div>
 				</div>
 			</div>
 		</div>

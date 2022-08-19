@@ -12,8 +12,9 @@
 	padding: 1vw;
 	border-radius: 0.3vw;
 	color: rgb(128, 128, 128);
-	font-size: 1em;
+	font-size: 1.2em;
 	transition: 1s;
+	background-color: #f4f1eb;
 	border: solid 0px;
 }
 

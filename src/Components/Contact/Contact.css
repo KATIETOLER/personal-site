@@ -5,12 +5,11 @@ p {
 .contact-header {
 	font-size: 0.8em;
 	color: rgb(50, 50, 50);
-	background-color: whitesmoke;
 }
 
 .contact-box {
 	border: solid 0.06em rgb(50, 50, 50);
-	padding: 5em;
+	padding: 4em;
 	width: fit-content;
 	display: flex;
 	flex-direction: column;
@@ -19,30 +18,47 @@ p {
 }
 
 .page-box {
-	padding: 2em;
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
 }
 
 #hair {
-	border-radius: 7em;
-	padding: 5em;
+	border-radius: 0.5em;
+	padding: 1em;
+	padding-bottom: 7em;
 	margin: 7em;
 	height: 25vw;
+	box-shadow: 7px 14.1px 14.1px hsl(0deg 0% 0% / 0.28);
+	transform: scale(3em);
+	transition: 2000ms;
+	transform: scale(1.01, 1.01);
 }
 
-#oriol {
-	border-radius: 1em;
-	height: 15vw;
-	margin-left: -40vw;
-	margin-top: -20vw;
-	/* filter: grayscale(100); */
+.contact-me {
+	font-family: 'DM Serif Display', serif;
+	font-size: 5em;
 }
 
-/* #oriol:hover {
-	filter: none;
-	transition: 2s;
-} */
-#FEE {
+.icon-container {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+	width: 100%;
+}
+
+#liIcon,
+#tIcon,
+#ghIcon {
+	height: 3em;
+}
+
+#ghIcon {
+	padding: 0.3em;
+}
+
+.FEE {
+	font-style: italic;
+	font-weight: bolder;
 }

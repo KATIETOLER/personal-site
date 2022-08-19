@@ -1,6 +1,9 @@
 import React from 'react'
 import './Contact.css'
 import Nav from '../Nav/Nav'
+import gh from '../../GH-icon.png'
+import li from '../../LI-icon.png'
+import tw from '../../TW-icon.png'
 
 function Contact() {
 	return (
@@ -13,37 +16,33 @@ function Contact() {
 						alt='hair in the wind'
 						id='hair'
 					/>
-					<img
-						src='https://64.media.tumblr.com/408ba1ffa2ecba9ff50a7ac291ff7941/tumblr_notm9g0gNN1tez4xgo1_1280.jpg'
-						alt='oriol bird'
-						id='oriol'
-					/>
 				</div>
 				<div className='contact-box'>
-					<h2>Contact Me</h2>
-					<em>
-						{' '}
-						<p>Katie Toler</p>
-					</em>
-					<p className='FEE'>Front End Software Engineer</p>
-					<p>
-						<strong>Phone: </strong>303-868-8423
-					</p>
-					<p>
-						<strong>Email: </strong> Katie.Toler3@gmail.com
-					</p>
-					<p>
-						<strong>GitHub: </strong>
-						<a href='https://github.com/KATIETOLER'>
-							https://github.com/KATIETOLER
+					<h2 className='contact-me'>Contact Me</h2>
+
+					<p>Katie Toler</p>
+
+					<p className='FEE'>Front-end Software Engineer</p>
+
+					<p></p>
+					<div className='icon-container'>
+						<a href='https://github.com/KATIETOLER' target='_blank'>
+							<img src={gh} alt='GitHub link' id='ghIcon' />
 						</a>
-					</p>
-					<p>
-						<strong> LinkedIn: </strong>
 						<a href='www.LinkedIn.com/in/katie--toler'>
-							www.LinkedIn.com/in/katie--toler
+							<img src={li} alt='LinkedIn link' id='liIcon' />
 						</a>{' '}
-					</p>
+						<a
+							href='https://terminal.turing.edu/profiles/1338'
+							alt='Turing School Link'>
+							<img
+								src='https://global-uploads.webflow.com/6181549f60a2245732e2f91b/6193f9ff1e2ea00183765ef1_turing-logo-gray.png'
+								id='tIcon'></img>
+						</a>
+						<a href='https://twitter.com/Toler_tech' alt='Twitter Link'>
+							<img src={tw} id='tIcon'></img>
+						</a>
+					</div>
 				</div>
 			</div>
 		</div>

@@ -1,12 +1,19 @@
 .aboutme-container {
-	padding: 20vw;
+	padding: 10vw;
 	display: flex;
+	padding-right: 15vw;
+	padding-top: 2em;
 	flex-direction: column;
-	justify-content: center;
+	justify-content: flex-start;
+	height: 100vh;
+	background-color: #f4f1eb;
 	color: rgb(62, 62, 62);
 }
 
-/* #img {
-	background-repeat: no-repeat;
-	background: url('../../pinkcrystal.jpeg');
-} */
+.hobbies {
+	font-size: 1.5em;
+}
+
+#dan {
+	font-style: italic;
+}

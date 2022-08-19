@@ -2,11 +2,13 @@
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	background-color: pink;
+	background-color: none;
+	background: none;
 }
 
 @media print {
 	.resume-container {
+		background-color: none;
 		display: none;
 	}
 }
@@ -16,4 +18,9 @@
 	padding: 1vw;
 	margin: 2vw;
 	background-color: white;
+}
+
+#pdf {
+	background-color: none;
+	border: 1px solid red;
 }

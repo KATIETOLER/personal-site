@@ -3,6 +3,7 @@ import './Contact.css'
 import Nav from '../Nav/Nav'
 import gh from '../../GH-icon.png'
 import li from '../../LI-icon.png'
+import tw from '../../TW-icon.png'
 
 function Contact() {
 	return (
@@ -21,9 +22,9 @@ function Contact() {
 
 					<p>Katie Toler</p>
 
-					<p className='FEE'>Front End Software Engineer</p>
-					<p>Phone: 303-868-8423</p>
-					<p>Email: Katie.Toler3@gmail.com</p>
+					<p className='FEE'>Front-end Software Engineer</p>
+
+					<p></p>
 					<div className='icon-container'>
 						<a href='https://github.com/KATIETOLER' target='_blank'>
 							<img src={gh} alt='GitHub link' id='ghIcon' />
@@ -37,6 +38,9 @@ function Contact() {
 							<img
 								src='https://global-uploads.webflow.com/6181549f60a2245732e2f91b/6193f9ff1e2ea00183765ef1_turing-logo-gray.png'
 								id='tIcon'></img>
+						</a>
+						<a href='https://twitter.com/Toler_tech' alt='Twitter Link'>
+							<img src={tw} id='tIcon'></img>
 						</a>
 					</div>
 				</div>

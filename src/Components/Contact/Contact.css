@@ -57,3 +57,8 @@ p {
 #ghIcon {
 	padding: 0.3em;
 }
+
+.FEE {
+	font-style: italic;
+	font-weight: bolder;
+}
